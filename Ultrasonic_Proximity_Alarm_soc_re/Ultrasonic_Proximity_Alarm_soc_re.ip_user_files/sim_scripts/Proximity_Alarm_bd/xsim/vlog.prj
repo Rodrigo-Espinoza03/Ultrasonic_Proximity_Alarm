@@ -1,0 +1,18 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../Ultrasonic_Proximity_Alarm_soc_re.gen/sources_1/bd/Proximity_Alarm_bd/ipshared/ec67/hdl" --include "../../../../Ultrasonic_Proximity_Alarm_soc_re.gen/sources_1/bd/Proximity_Alarm_bd/ipshared/aed8/hdl" \
+"../../../bd/Proximity_Alarm_bd/ip/Proximity_Alarm_bd_processing_system7_0_0/sim/Proximity_Alarm_bd_processing_system7_0_0.v" \
+"../../../bd/Proximity_Alarm_bd/ip/Proximity_Alarm_bd_piezo_buzzer_0_0/sim/Proximity_Alarm_bd_piezo_buzzer_0_0.v" \
+"../../../bd/Proximity_Alarm_bd/ipshared/f3bd/hdl/UART_MAXSONAR_v1_0_S00_AXI.v" \
+"../../../bd/Proximity_Alarm_bd/ipshared/f3bd/hdl/baudrate.v" \
+"../../../bd/Proximity_Alarm_bd/ipshared/f3bd/hdl/ctrl_pmod_rx.v" \
+"../../../bd/Proximity_Alarm_bd/ipshared/f3bd/hdl/packet_parser.v" \
+"../../../bd/Proximity_Alarm_bd/ipshared/f3bd/hdl/receiver.v" \
+"../../../bd/Proximity_Alarm_bd/ipshared/f3bd/hdl/uart.v" \
+"../../../bd/Proximity_Alarm_bd/ipshared/f3bd/hdl/UART_MAXSONAR_v1_0.v" \
+"../../../bd/Proximity_Alarm_bd/ip/Proximity_Alarm_bd_UART_MAXSONAR_0_0/sim/Proximity_Alarm_bd_UART_MAXSONAR_0_0.v" \
+"../../../bd/Proximity_Alarm_bd/ip/Proximity_Alarm_bd_auto_pc_0/sim/Proximity_Alarm_bd_auto_pc_0.v" \
+"../../../bd/Proximity_Alarm_bd/sim/Proximity_Alarm_bd.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

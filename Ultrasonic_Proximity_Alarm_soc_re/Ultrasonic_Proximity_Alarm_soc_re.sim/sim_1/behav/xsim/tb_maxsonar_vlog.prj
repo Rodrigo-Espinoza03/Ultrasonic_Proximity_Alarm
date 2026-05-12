@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Ultrasonic_Proximity_Alarm_soc_re.gen/sources_1/bd/Proximity_Alarm_bd/ipshared/ec67/hdl" --include "../../../../Ultrasonic_Proximity_Alarm_soc_re.gen/sources_1/bd/Proximity_Alarm_bd/ipshared/aed8/hdl" --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" \
+"../../../../Ultrasonic_Proximity_Alarm_soc_re.srcs/sim_1/new/tb_maxsonar.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

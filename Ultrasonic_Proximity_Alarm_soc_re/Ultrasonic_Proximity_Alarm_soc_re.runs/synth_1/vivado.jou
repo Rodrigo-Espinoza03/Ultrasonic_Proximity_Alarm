@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon May  4 14:22:09 2026
+# Process ID: 21512
+# Current directory: C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Ultrasonic_Proximity_Alarm_soc_re.runs/synth_1
+# Command line: vivado.exe -log Proximity_Alarm_bd_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Proximity_Alarm_bd_wrapper.tcl
+# Log file: C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Ultrasonic_Proximity_Alarm_soc_re.runs/synth_1/Proximity_Alarm_bd_wrapper.vds
+# Journal file: C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Ultrasonic_Proximity_Alarm_soc_re.runs/synth_1\vivado.jou
+# Running On: Daddy_RodrigoLT, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16701 MB
+#-----------------------------------------------------------
+source Proximity_Alarm_bd_wrapper.tcl -notrace

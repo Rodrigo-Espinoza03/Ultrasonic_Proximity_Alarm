@@ -1,0 +1,14 @@
+14:27:14 **** Incremental Build of configuration Debug for project Proximity_Alarm_app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 62458 C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_plat/export/Proximity_Alarm_plat/Proximity_Alarm_plat.xpfm standalone_domain C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_app_system/Debug/system.bif
+ECHO is off.
+ECHO is off.
+sdcard_gen --xpfm C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_plat/export/Proximity_Alarm_plat/Proximity_Alarm_plat.xpfm --sys_config Proximity_Alarm_plat --bif C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_app_system/Debug/system.bif --bitstream C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_app/_ide/bitstream/Proximity_Alarm_bd_wrapper.bit --elf C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_app/Debug/Proximity_Alarm_app.elf,ps7_cortexa9_0
+ECHO is off.
+ECHO is off.
+creating BOOT.BIN using C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_app/_ide/bitstream/Proximity_Alarm_bd_wrapper.bit
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen  -image C:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:27:32 Build Finished (took 17s.691ms)
+

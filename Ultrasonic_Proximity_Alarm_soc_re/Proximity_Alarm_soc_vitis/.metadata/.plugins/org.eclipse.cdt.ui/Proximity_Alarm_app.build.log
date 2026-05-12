@@ -1,0 +1,30 @@
+14:26:59 **** Incremental Build of configuration Debug for project Proximity_Alarm_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_plat/export/Proximity_Alarm_plat/sw/Proximity_Alarm_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_plat/export/Proximity_Alarm_plat/sw/Proximity_Alarm_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Proximity_Alarm_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/ECE520_SOC/ECE520_SandBox/Ultrasonic_Proximity_Alarm_soc_re/Proximity_Alarm_soc_vitis/Proximity_Alarm_plat/export/Proximity_Alarm_plat/sw/Proximity_Alarm_plat/standalone_domain/bsplib/lib -o "Proximity_Alarm_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Proximity_Alarm_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Proximity_Alarm_app.elf  |tee "Proximity_Alarm_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24421	   1144	  22568	  48133	   bc05	Proximity_Alarm_app.elf
+'Finished building: Proximity_Alarm_app.elf.size'
+' '
+
+14:27:03 Build Finished (took 4s.127ms)
+

@@ -1,0 +1,78 @@
+timestamp=[2026-05-03 12:50:20], mode=WORKBENCH_START, duration=0:00:07.810, duration_ms=7810, data={}
+timestamp=[2026-05-03 12:50:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.014, duration_ms=14, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-05-03 12:50:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.439, duration_ms=439, data={}
+timestamp=[2026-05-03 12:51:17], mode=PLATFORM_CREATION, duration=0:00:10.851, duration_ms=10851, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2026-05-03 12:53:43], mode=PLATFORM_GENERATION, duration=0:00:54.554, duration_ms=54554, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-03 12:54:28], mode=APP_CREATION, duration=0:00:04.879, duration_ms=4879, data={name=Proximity_Alarm_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=Proximity_Alarm_plat, application_type=application}
+timestamp=[2026-05-03 13:18:45], mode=BUILD, duration=0:00:02.578, duration_ms=2578, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:18:53], mode=BUILD, duration=0:00:07.560, duration_ms=7560, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:26:16], mode=BUILD, duration=0:00:02.242, duration_ms=2242, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:26:28], mode=BUILD, duration=0:00:11.196, duration_ms=11196, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:29:04], mode=BUILD, duration=0:00:03.309, duration_ms=3309, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:29:26], mode=BUILD, duration=0:00:20.420, duration_ms=20420, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:44:37], mode=BUILD, duration=0:00:01.590, duration_ms=1590, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:45:01], mode=BUILD, duration=0:00:01.595, duration_ms=1595, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:47:07], mode=BUILD, duration=0:00:02.695, duration_ms=2695, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:49:14], mode=BUILD, duration=0:00:01.579, duration_ms=1579, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:50:12], mode=BUILD, duration=0:00:03.379, duration_ms=3379, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 13:50:33], mode=BUILD, duration=0:00:20.750, duration_ms=20750, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 14:03:36], mode=BUILD, duration=0:00:03.374, duration_ms=3374, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 14:03:56], mode=BUILD, duration=0:00:19.314, duration_ms=19314, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 14:38:31], mode=BUILD, duration=0:00:02.468, duration_ms=2468, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 14:38:45], mode=BUILD, duration=0:00:13.250, duration_ms=13250, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:20:59], mode=PLATFORM_GENERATION, duration=0:05:46.860, duration_ms=346860, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-03 15:21:59], mode=BUILD, duration=0:00:38.958, duration_ms=38958, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:26:02], mode=BUILD, duration=0:03:06.637, duration_ms=186637, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:26:12], mode=BUILD, duration=0:00:08.010, duration_ms=8010, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:29:25], mode=BUILD, duration=0:03:03.051, duration_ms=183051, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:29:36], mode=BUILD, duration=0:00:08.818, duration_ms=8818, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:32:42], mode=BUILD, duration=0:02:56.489, duration_ms=176489, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:58:37], mode=PLATFORM_GENERATION, duration=0:05:32.225, duration_ms=332225, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-03 16:00:24], mode=BUILD, duration=0:01:09.814, duration_ms=69814, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 16:06:58], mode=BUILD, duration=0:04:46.217, duration_ms=286217, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 16:14:50], mode=BUILD, duration=0:00:37.028, duration_ms=37028, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 16:18:42], mode=BUILD, duration=0:03:35.440, duration_ms=215440, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 17:23:07], mode=PLATFORM_GENERATION, duration=0:06:04.401, duration_ms=364401, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-03 17:25:01], mode=BUILD, duration=0:00:55.367, duration_ms=55367, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 17:32:56], mode=BUILD, duration=0:06:07.925, duration_ms=367925, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 18:26:27], mode=PLATFORM_GENERATION, duration=0:04:51.836, duration_ms=291836, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-03 18:28:14], mode=BUILD, duration=0:01:13.313, duration_ms=73313, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 18:35:29], mode=BUILD, duration=0:05:10.775, duration_ms=310775, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 18:46:33], mode=BUILD, duration=0:00:49.625, duration_ms=49625, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 18:52:13], mode=BUILD, duration=0:05:03.576, duration_ms=303576, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 21:41:32], mode=WORKBENCH_START, duration=0:00:10.203, duration_ms=10203, data={}
+timestamp=[2026-05-03 21:41:32], mode=WORKBENCH_UI_INIT, duration=0:00:00.313, duration_ms=313, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Proximity_Alarm_app,Proximity_Alarm_app_system,Proximity_Alarm_plat,RemoteSystemsTempFiles}
+timestamp=[2026-05-03 21:41:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.534, duration_ms=534, data={}
+timestamp=[2026-05-03 21:42:49], mode=PLATFORM_GENERATION, duration=0:00:41.342, duration_ms=41342, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-03 21:42:56], mode=BUILD, duration=0:00:04.176, duration_ms=4176, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 21:43:18], mode=BUILD, duration=0:00:13.231, duration_ms=13231, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 21:43:42], mode=BUILD, duration=0:00:00.805, duration_ms=805, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 21:43:56], mode=BUILD, duration=0:00:12.460, duration_ms=12460, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 22:19:03], mode=PLATFORM_GENERATION, duration=0:00:33.911, duration_ms=33911, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-03 22:19:08], mode=BUILD, duration=0:00:02.502, duration_ms=2502, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 22:19:24], mode=BUILD, duration=0:00:09.792, duration_ms=9792, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 10:07:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.081, duration_ms=1081, data={}
+timestamp=[2026-05-04 10:16:00], mode=WORKBENCH_START, duration=0:08:41.667, duration_ms=521667, data={}
+timestamp=[2026-05-04 10:16:00], mode=WORKBENCH_UI_INIT, duration=0:00:00.313, duration_ms=313, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Proximity_Alarm_app,Proximity_Alarm_app_system,Proximity_Alarm_plat,RemoteSystemsTempFiles}
+timestamp=[2026-05-04 10:17:41], mode=PLATFORM_GENERATION, duration=0:00:41.428, duration_ms=41428, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-04 10:17:48], mode=BUILD, duration=0:00:04.817, duration_ms=4817, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 10:18:11], mode=BUILD, duration=0:00:14.867, duration_ms=14867, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 10:49:22], mode=PLATFORM_GENERATION, duration=0:00:22.397, duration_ms=22397, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-04 10:49:27], mode=BUILD, duration=0:00:02.843, duration_ms=2843, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 10:49:43], mode=BUILD, duration=0:00:09.573, duration_ms=9573, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 11:05:42], mode=BUILD, duration=0:00:02.732, duration_ms=2732, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 11:05:56], mode=BUILD, duration=0:00:13.268, duration_ms=13268, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 11:11:35], mode=BUILD, duration=0:00:02.245, duration_ms=2245, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 11:11:47], mode=BUILD, duration=0:00:11.390, duration_ms=11390, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 13:37:02], mode=BUILD, duration=0:00:01.309, duration_ms=1309, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 13:37:39], mode=BUILD, duration=0:00:02.872, duration_ms=2872, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 13:37:57], mode=BUILD, duration=0:00:16.494, duration_ms=16494, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 14:26:55], mode=PLATFORM_GENERATION, duration=0:00:39.393, duration_ms=39393, data={name=Proximity_Alarm_plat}
+timestamp=[2026-05-04 14:27:03], mode=BUILD, duration=0:00:04.148, duration_ms=4148, data={name=Proximity_Alarm_app, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 14:27:32], mode=BUILD, duration=0:00:17.701, duration_ms=17701, data={name=Proximity_Alarm_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-04 16:14:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.341, duration_ms=341, data={}
+timestamp=[2026-05-04 16:14:20], mode=WORKBENCH_START, duration=0:00:15.783, duration_ms=15783, data={}
+timestamp=[2026-05-04 16:14:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.271, duration_ms=271, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Proximity_Alarm_app,Proximity_Alarm_app_system,Proximity_Alarm_plat,RemoteSystemsTempFiles}
+timestamp=[2026-05-11 19:03:22], mode=WORKBENCH_START, duration=0:00:10.378, duration_ms=10378, data={}
+timestamp=[2026-05-11 19:03:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.073, duration_ms=73, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Proximity_Alarm_app,Proximity_Alarm_app_system,Proximity_Alarm_plat,RemoteSystemsTempFiles}
+timestamp=[2026-05-11 19:03:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.440, duration_ms=440, data={}
