@@ -25,35 +25,23 @@ Professor
 
 # Block Diagram
 
-![Block Diagram](images/block_diagram.png)
+![Block Diagram](Proximity_Alarm_bd.png)
 
 # Video Demonstration
 
 Video Demo: https://www.youtube.com/shorts/LvjLVKrKrXA
 
-# Photos
-
-## Ultrasonic Sensor
-
-![Ultrasonic Sensor](images/ultrasonic_sensor.png)
-
-## Buzzer / Speaker Output
-
-![Buzzer Output](images/buzzer_output.png)
-
 # Background and Methodology
 
-The system was developed using an ultrasonic distance sensor, a microcontroller, and a buzzer or speaker. The ultrasonic sensor sends out sound waves and measures the time it takes for the echo to return after bouncing off an object. This time value is then used to calculate the distance between the object and the sensor.
+The system was developed using a Pmod MAXSONAR ultrasonic distance sensor, a Zybo Z7-10 FPGA board, and two piezo buzzers. The ultrasonic sensor sends out sound waves and measures the time it takes for the echo to return after bouncing off an object. This time value is then used to determine the distance between the object and the sensor.
 
-The microcontroller continuously reads distance measurements from the ultrasonic sensor. When the measured distance becomes less than the programmed threshold, the system activates the buzzer. The alarm sound can be adjusted so that it becomes faster, louder, or more frequent as the object gets closer to the sensor.
+The designed UART module is used to control the Rx pin of the Pmod sensor and receive packets of data from the sensor when enabled. Once the distance measurement is captured, it is sent to another module that generates square waves at different frequencies depending on the distance threshold. These square waves are then sent to the buzzers to produce audible tones.
 
-The project was tested by placing objects at different distances in front of the ultrasonic sensor and observing the buzzer response. The system was adjusted to make sure the alarm activates reliably when an object enters the warning range.
+The project was tested by placing objects at different distances in front of the ultrasonic sensor and observing the buzzer response. Different sound frequencies were produced during testing, showing that the alarm output changed based on the measured distance.
 
 # Results
 
-The ultrasonic proximity alarm was successfully able to detect objects within a selected distance range and produce an audible warning when an object moved close to the sensor. The system responded in real time by continuously checking the distance and activating the buzzer when the object entered the alarm zone.
-
-This project reinforced important embedded systems concepts, including sensor interfacing, signal timing, distance calculation, digital output control, and hardware-software integration. By combining the ultrasonic sensor with a buzzer, the project demonstrated how sensor data can be used to create a practical warning system.
+The ultrasonic proximity alarm was successfully able to detect objects within a selected distance range and produce an audible warning when an object moved close to the sensor. However, the issue was that the system did not respond in real time by continuously checking the distance. This could be due to a bug possibly found in the receiver module in how data from the peripheral is received and handled. By tackling this issue, this project may work in real time.
 
 # Components Used
 
